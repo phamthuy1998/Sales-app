@@ -1,7 +1,7 @@
 # Sales-app
  This is an app to sell electronic devices like phones and laptops. The app is written in android language, user mysql and php to connect database
  
- ## How to run?
+ # How to run?
  1. Download myphpadmin, xampp
  1. Add thitbi.sql to myphpadmin
  2. install xampp, path: C:\xampp
