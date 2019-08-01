@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        app:cardCornerRadius="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_margin="2dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/imageviewlaptop"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:id="@+id/textviewtenlaptop"
+                    android:textColor="@color/color_ten"
+                    android:text="Ten san pham"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_margin="5dp"
+                    android:text="Gia san pham"
+                    android:textColor="@color/color_gia"
+                    android:id="@+id/textviewgialaptop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="@color/color_mota"
+                    android:textSize="18sp"
+                    android:layout_margin="5dp"
+                    android:text="Mo ta"
+                    android:id="@+id/textviewmotalaptop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>

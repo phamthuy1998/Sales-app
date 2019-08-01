@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        app:cardCornerRadius="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:id="@+id/textviewmadonhang1"
+                    android:textColor="@color/color_ten"
+                    android:text="Mã Đơn hàng"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_margin="5dp"
+                    android:text="số điện thoại"
+                    android:textColor="#000"
+                    android:id="@+id/textviewsodienthoai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_margin="5dp"
+                    android:text="ngày đặt"
+                    android:textColor="#000"
+                    android:id="@+id/textviewngaydat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_margin="5dp"
+                    android:text="địa chỉ giao"
+                    android:textColor="#000"
+                    android:id="@+id/textviewdiachigiao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_margin="5dp"
+                    android:text="Trạng thái đơn hàng"
+                    android:textColor="#5A5353"
+                    android:id="@+id/textviewtrangthaidonhang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

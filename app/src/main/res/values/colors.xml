@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="color_1">#B3DDD1</color>
+    <color name="color_3">#6EC6CA</color>
+    <color name="color_4">#D0E6A5</color>
+    <color name="color_5">#117C6F</color>
+    <color name="color_6">#2FC4B2</color>
+    <color name="color_7">#E7E6E4</color>
+    <color name="color_ten">#1AA6B7</color>
+    <color name="color_gia">#FF414D</color>
+    <color name="color_mota">#C6C09C</color>
+
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="quenpass">#FDD6D6</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+    <color name="btn_click_loai_don_hang">#74CFFA</color>
+</resources>

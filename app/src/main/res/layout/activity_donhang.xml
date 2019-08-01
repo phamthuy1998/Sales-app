@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".activity.donhangActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbardonhang"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:scrollbarSize="30sp"
+        app:title="Quản lý đơn hàng"
+        app:titleTextColor="#fff">
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttondangxuly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableBottom="@color/color_1"
+            android:text="Đang xử lý"
+            android:textAllCaps="false"
+            android:textColor="#11248B"
+            android:textSize="13sp" />
+
+        <Button
+            android:background="@null"
+            android:id="@+id/buttondatiepnhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đã tiếp nhận"
+            android:textAllCaps="false"
+            android:textColor="#11248B"
+            android:textSize="13sp" />
+        <Button
+            android:background="@null"
+            android:id="@+id/buttondanggiaohang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đang giao hàng"
+            android:textAllCaps="false"
+            android:textColor="#11248B"
+            android:textSize="13sp" />
+        <Button
+            android:background="@null"
+            android:id="@+id/buttondagiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đã giao hàng"
+            android:textAllCaps="false"
+            android:textColor="#11248B"
+            android:textSize="13sp" />
+        <Button
+            android:background="@null"
+            android:id="@+id/buttondahuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đã hủy"
+            android:textAllCaps="false"
+            android:textColor="#11248B"
+            android:textSize="13sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight = "7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textviewbao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Bạn chưa có đơn hàng"
+                android:textSize="30sp" />
+
+            <ListView
+                android:id="@+id/listviewdonhang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+        </FrameLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Appbanhang</string>
+    <string name="title_activity_thong_tin">Map</string>
+    <string name="login_title">ĐĂNG NHẬP</string>
+    <string name="login_lable1">Tài Khoản</string>
+    <string name="login_lable2">Mật Khẩu</string>
+    <string name="login_btn">Đăng nhập</string>
+    <string name="register_title">TẠO TÀI KHOẢN</string>
+    <string name="register_email">Email</string>
+    <string name="register_btn">Đăng Ký</string>
+</resources>
