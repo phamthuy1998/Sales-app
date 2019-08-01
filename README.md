@@ -6,6 +6,6 @@
  1. Add thitbi.sql to myphpadmin
  2. install xampp, path: C:\xampp
  3. Cut server.rar into C:\xampp\htdocs, and then extract it
- 4. Change ip localhost in Server.java in util/Server.java, it's an ip of your laptop, and then paste into ip default 
+ 4. Change ip localhost in Server.java in util/Server.java, it's an ip address of your pc, and then paste into ip default 
  5. Run app ^^
  
